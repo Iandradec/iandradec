@@ -1,4 +1,4 @@
-ame: generate animation
+name: generate animation
 
 on:
   # Runs at 12am UTC
