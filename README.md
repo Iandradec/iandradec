@@ -9,8 +9,7 @@
 
 ---
 <!-- ### 👦 About Me -->
-
-<h3 align="left"><b> 👦 About Me </b>  </h3>
+<h3 align="left"><b> 👦 About Me: </b>  </h3>
 
 - 👨‍💻 Devops and cloud Engineer with strong passion in financial markets.
 
@@ -25,7 +24,6 @@
 --- 
 
 <!-- ### 🔥 My Stats -->
-
 <h3 align="center"><b> 🔥 My Stats </b>  </h3>
 <p align="center">
     <img width="400" src="https://github-readme-stats.vercel.app/api?username=iandradec&count_private=true&show_icons=true&theme=react" align="center" />  
@@ -37,9 +35,7 @@
 ---
 
 <!-- ### 🛠️ Languages and Tools -->
-
 <h3 align="center"> 🛠️ Languages and Tools </h3>
-
 <div>
     <p align="center">
         <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer" > <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> 
@@ -57,8 +53,7 @@
 ---
 
 <!-- ### 🐍 Contribution snake -->
-
-<h3 align="center"><b> 🐍 Contribution snake</b>  </h3>
+<h3 align="center"><b> 🐍 Contribution snake</b> </h3>
 <p align="center">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Iandradec/iandradec/blob/output/github-snake-dark.svg">
@@ -70,7 +65,7 @@
 ---
 
 <!-- ### 🔗 Social info -->
-<h3 align="center"><b> 🔗 Social info </b>  </h3>
+<h3 align="center"><b> 🔗 Social info </b> </h3>
 <div id="badges">
     <p align="center">
         <a href="https://linkedin.com/in/iandradec">
