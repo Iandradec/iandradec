@@ -9,6 +9,9 @@ on:
       # every 6 hours
     - cron: "0 0 * * *"
 
+# allows to manually run the job at any time
+  workflow_dispatch:
+
 # run on every push on the master branch
   push:
     branches:
@@ -28,10 +31,10 @@ jobs:
       - uses: actions/checkout@v2
 
     # Generates the snake  
-      - uses: Platane/snk@master
+      - uses: Platane/snk/svg-only@v2
         id: snake-gif
         with:
-          github_user_name: iandradec
+          github_user_name: ${{ github.repository_owner }}
           # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
