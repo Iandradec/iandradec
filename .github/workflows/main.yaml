@@ -12,10 +12,10 @@ on:
 # allows to manually run the job at any time
   workflow_dispatch:
 
-# # run on every push on the master branch
-#   push:
-#     branches:
-#       - "*"
+# run on every push on the master branch
+  push:
+    branches:
+      - "*"
 
 # The sequence of runs in this workflow:
 jobs:
@@ -31,13 +31,17 @@ jobs:
       - uses: actions/checkout@v2
 
     # Generates the snake  
-      - uses: Platane/snk/svg-only@v2
+      - uses: Platane/snk@v2.2.1
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+#           # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
+#           gif_out_path: dist/github-contribution-grid-snake.gif
+#           svg_out_path: dist/github-contribution-grid-snake.svg
 
      # show the status of the build. Makes it easier for debugging (if there's any issues).
       - run: git status
