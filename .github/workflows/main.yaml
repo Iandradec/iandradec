@@ -28,7 +28,7 @@ jobs:
         run: npm install canvas
 
       - name: Generate GitHub contribution grid snake
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v2
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
