@@ -15,7 +15,7 @@
 
 - 🔭 I’m currently working at **DYVENIA DATA SL**.
 
-- 📄 Know about my [experience](https://www.linkedin.com/in/iandradec/)
+- 📄 Know about my [experience.](https://www.linkedin.com/in/iandradec/)
 
 - 🌱 I’m currently learning **DevOps Engineering - Python - IAC**.
   
