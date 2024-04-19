@@ -13,7 +13,7 @@
 
 - 👨‍💻 Devops and cloud Engineer with strong passion in financial markets.
 
-- 🔭 I’m currently working at **DYVENIA DATA SL**.
+- 🔭 I’m currently working at **EVIDEN BDS**.
 
 - 📄 Know about my [experience.](https://www.linkedin.com/in/iandradec/)
 
